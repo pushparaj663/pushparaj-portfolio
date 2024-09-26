@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .contact-form-container{
+    background: #333;
+}
+
+body.dark-mode .hero-header {
+    background: #1e1e1e;
+}
+
+header {
+    padding: 20px 70px 20px;
+    padding-left: 10px;
+display: inline;
+    display: flex;
+    justify-content: space-between;
+  
+   
+    transition: background-color 0.3s;
+}
+
+body.dark-mode header {
+    background: #333;
+}
+.dark-mode-toggle{
+    display: inline;
+ font-size: 30px;
+  margin-left: 650px;
+}
+
+.navlinks li a {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .navlinks li a {
+    color: #e0e0e0;
+}
+body {
+    font-family: "Comfortaa", sans-serif;
+    background-image: linear-gradient(to left,#5b43c7,#80ffdb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form-container {
+    background-image: linear-gradient(to right,#5b43c7,#80ffdb);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 800px;
+    margin-top: -180px;
+    display: inline-block;
+}
+
+.left{
+    display: flex;
+    position: relative;
+    top: 140px;
+    
+}
+.nith {
+   
+    position: relative;
+    right: -107px;
+    top: 90px;
+    color: #007ced;
+}
+.raju {
+    position: relative;
+    top: 120px;
+    right: 110px;
+}
+.hero-text h5,
+.hero-text h1,
+.hero-text p {
+    color: black;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+ 
+    
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;}
+    
+ 
+
+
+
+.hero-header{
+    width:100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,#c1b3ff,#80ffdb);
+}
+.wrapper{
+    width:1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+.logo i{
+    height: 45px;
+    width:45px;
+    background-color: #007ced;
+    border-radius: 50%;
+    color:black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+}
+nav .togglebtn{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:45px;
+    right: 3%;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+    
+}
+nav .togglebtn span{
+    display: block;
+    background-color: rgb(0, 124, 237);
+    margin: 5px 0px;
+    width:100%;
+    height:3px;
+    transition: 0.3s;
+    transition-property:  transform, opacity;
+
+}
+nav .navlinks{
+    list-style-type: none;
+   ;
+}
+nav .navlinks li{
+    display: inline-block;
+}
+nav .navlinks li a{
+     color:rgb(255, 255, 255);
+     margin-right: 2.5rem;
+    
+}
+header{
+    background-image: linear-gradient(rgb(0, 62, 121), rgb(93, 0, 147));
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:4rem;
+}
+
+
+
+
+
+.btn-group{
+    margin:45px 0;
+}
+.btn-group .btn{
+    border-color: #d5d5d5;
+    color:black;
+    background-color: white;
+    padding: 12px 25px;
+    margin: 5px 0px;
+    margin-right:7px;
+    border-radius: 30px;
+    border:2px solid #e5e5e5;
+    box-shadow:  0 10px 10px -8px rgb(0 0 0 / 78%);
+}
+.btn.active{
+    border-color: #007ced;
+}
+.hero-text .social i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero-text .social i:hover{
+    color:black;
+    transform: rotate(360deg);
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:1200px)
+{
+    nav .togglebtn{
+        display: initial;
+    }
+   
+    .click {
+        top:45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top:12px
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2)
+    {
+        opacity: 0;
+        margin:0;
+    }
+    .click span:last-child{
+        transform: rotate(45deg);
+        top:0;
+    }
+    nav .navlinks{
+        position: absolute;
+        top:110px;
+        right:-100%;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        z-index: 3;
+        box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
+        transition: 0.5s;
+        padding: 25px 0px;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right:0;
+    }
+}
+@media(max-width:480px)
+
+{
+    .hero-header{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .contact-form-container{
+        padding: 10px;
+        flex-direction: column;
+      align-items: center;
+    }
+    .hero-text{
+        padding:40px 0px;
+    }
+    .nith{
+        font-size: 20px;
+    }
+    .raju{
+        font-size: 20px;
+    }
+    li{
+        
+        color:white;
+        
+    }
+    a{color:white;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right:0;
+    }
+    .contact-form-container{
+        max-width: 50%;
+        padding: 15px;
+    }
+}
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+.social i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+    position: relative;
+    left: -325px;
+    top: 50px;
+}
+.social i:hover
+{
+    color:rgb(174, 0, 255); 
+    transform: rotate(360deg);
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.form-message {
+    margin-top: 15px;
+    color: #28a745;
+    display: none;
+}
+
+
+body.dark-mode .hero-text h5,
+body.dark-mode .hero-text h1,
+body.dark-mode .hero-text p,
+.dark-mode {
+    color: #ffffff;
+}
+body.dark-mode .contact-form-container h2,
+body.dark-mode .contact-form-container label{
+    color: white;
+    background-color: #333;}
+
+body.dark-mode .contact-form-container #contactForm{
+        background-color:  #333;
+}
+body.dark-mode .container{
+    background-color: #333;
+}
+img{
+  width: 20%;
+  height: 20%;
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+/* Add more dark mode styles as needed */
+
+</style>
+<body >
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div  class="logo">
+                    <i style="background-color: white;"class="fa-solid fa-a"></i>
+                    <div class="logo-text">RAJU </div>
+                </div>
+                <div class="dark-mode-toggle" id="darkModeToggle">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <nav>
+        
+                    <ul class="navlinks">
+                        <li><a class="fade-in" href="index.html">Home</a></li>
+                        <li><a class="fade-in" href="resumport.html">Resume</a></li>
+                       
+                    </ul>
+ 
+                </nav>
+            </header>
+    <div class="left">
+        <img src="online-resume.png" alt="contact">
+<h2 class="nith">For any enquries</h2><br><br>
+<h1 class="raju"> <a href="#" ><i class="fa-solid fa-address-book"></i></a>Contact Us</h1>
+<div class="social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+    </div>
+  
+    <div class="right">
+      
+                <div  class="contact-form-container fade-in">   
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea  id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <p id="form-message" class="form-message"></p>
+                </form>
+            </div>
+        </div>
+        </div>
+            
+        
+
+
+   
+    
+      <script>
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Get form values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Simple form validation
+    if (name === '' || email === '' || message === '') {
+        displayMessage('All fields are required!', false);
+    } else if (!validateEmail(email)) {
+        displayMessage('Invalid email address!', false);
+    } else {
+        // Process form submission (e.g., send data to server)
+        displayMessage('Thank you for contacting us!', true);
+
+        // Clear the form
+        document.getElementById('contactForm').reset();
+    }
+});
+
+// Function to display form message
+function displayMessage(message, isSuccess) {
+    const messageElement = document.getElementById('form-message');
+    messageElement.textContent = message;
+    messageElement.style.display = 'block';
+    messageElement.style.color = isSuccess ? '#28a745' : '#dc3545';
+}
+
+// Function to validate email format
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+}
+
+    </script> 
+     
+
+    <script >
+        document.getElementById('darkModeToggle').addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode');
+});
+
+    </script>
+</body>
+</html>
